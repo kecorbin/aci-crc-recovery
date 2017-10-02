@@ -33,9 +33,6 @@ curl -X POST 127.0.0.1:5050/api/errors/10
 
 This script performs the actual work of monitoring for CRC errors and disabling ports.
 
-The script requires some environment variables to be set, a sample is provied [here](./.env.sample)
-
-
 It performs the following steps
 
 1. Login to APIC
@@ -46,3 +43,19 @@ It performs the following steps
    provided that the following environment variables are set
    - SPARK_ROOM_ID
    - SPARK_TOKEN
+
+### Configuration
+
+The script requires some environment variables to be set
+
+Create a .env file using [.env.sample](./.env.sample) as a template
+
+```
+source .env
+```
+### Running
+
+```
+python crc-checker.py
+```
+
