@@ -4,7 +4,6 @@ import json
 import requests
 from acitoolkit.acitoolkit import Session
 
-# TODO: these gotta go somewhere else
 URL = os.getenv('APIC_URL')
 USER = os.getenv('APIC_LOGIN')
 PASSWORD = os.getenv('APIC_PASSWORD')
