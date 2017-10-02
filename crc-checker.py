@@ -27,10 +27,7 @@ if not all([URL, USER, PASSWORD]):
 headers = {"Content-Type": "application/json",
            "Authorization": "Bearer {}".format(token)}
 
-
-test_port = "topology/pod-1/paths-103/pathep-[eth1/29]"
-
-# may also want to be able to exclude ports
+# may want to be able to exclude ports
 excluded_ports = []
 
 
