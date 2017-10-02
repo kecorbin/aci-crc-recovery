@@ -33,7 +33,7 @@ curl -X POST 127.0.0.1:5050/api/errors/10
 
 This script performs the actual work of monitoring for CRC errors and disabling ports.
 
-The script requires some environment variables to be set, a sample is provied [here](./.env)
+The script requires some environment variables to be set, a sample is provied [here](./.env.sample)
 
 
 It performs the following steps
